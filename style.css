@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap');
+
+.grid-container {
+  display: grid;
+  grid-template: 1fr 7fr / 1fr 2fr;
+  grid-gap: 10px;
+  background-color: #b82318;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-image: url(https://i.pinimg.com/originals/70/d7/a2/70d7a25e1347987ae0849bcff6da1cbf.jpg);
+  text-align: center;
+  padding: 20px ;
+  font-size: 30px;
+}
+.grid-container > div > h1 {
+  font-family: Anton, sans-serif;
+}
+.grid-container > div > p {
+  font-family: Oswald, sans-serif;
+}
+
+.grid-container > div > img {
+  object-fit: cover;
+  width: 100%;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item1 > h1{
+  text-align: left;
+  padding-left: 20px;
+}
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 50;
+}
+.item3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 28;
+}
+.item5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 29;
+  grid-row-end: 50
+}
+.item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 50;
+  grid-row-end: 56;
+  font-family: Oswald, sans-serif;
+}
+body {
+  background-color: black;
+}
+}
